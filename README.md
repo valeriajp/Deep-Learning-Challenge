@@ -18,18 +18,19 @@ From Alphabet Soup’s business team, you have received access to a CSV containi
 
 # **Instructions**
 **Step 1: Preprocess the Data**
-Using your knowledge of Pandas and scikit-learn’s StandardScaler(), you’ll need to preprocess the dataset. This step prepares you for Step 2, where you'll compile, train, and evaluate the neural network model.
+Using your knowledge of Pandas and scikit-learn’s ![image](https://github.com/user-attachments/assets/4350877e-7c20-4f7f-bb1e-0c93c965fcaf), you’ll need to preprocess the dataset. This step prepares you for Step 2, where you'll compile, train, and evaluate the neural network model.
 Start by uploading the starter file to Google Colab, then using the information we provided in the Challenge files, follow the instructions to complete the preprocessing steps.
-1. From the provided cloud URL, read in the charity_data.csv to a Pandas DataFrame, and be sure to identify the following in your dataset:
+1. From the provided cloud URL, read in the ![image](https://github.com/user-attachments/assets/47fc36f9-c5e3-48d8-abc7-bf4ed7bf0910) to a Pandas DataFrame, and be sure to identify the following in your dataset:
    - What variable(s) are the target(s) for your model?
    - What variable(s) are the feature(s) for your model?
-2. Drop the EIN and NAME columns.
+2. Drop the ![image](https://github.com/user-attachments/assets/1215f82c-ad53-4368-8a4a-b367b0e54312) and ![image](https://github.com/user-attachments/assets/df715fd4-bc75-44c2-896f-61b8c54441e9) columns.
 3. Determine the number of unique values for each column.
 4. For columns that have more than 10 unique values, determine the number of data points for each unique value.
-5. Use the number of data points for each unique value to pick a cutoff point to combine "rare" categorical variables together in a new value, Other, and then check if the replacement was successful.
-6. Use pd.get_dummies() to encode categorical variables.
-7. Split the preprocessed data into a features array, X, and a target array, y. Use these arrays and the train_test_split function to split the data into training and testing datasets.
-8. Scale the training and testing features datasets by creating a StandardScaler instance, fitting it to the training data, then using the transform function.
+5. Use the number of data points for each unique value to pick a cutoff point to combine "rare" categorical variables together in a new value, ![image](https://github.com/user-attachments/assets/3d69f23d-5da8-4579-a122-6abea7ee4e1d), and then check if the replacement was successful.
+6. Use ![image](https://github.com/user-attachments/assets/c24fad01-1f0d-448a-a4ce-bbed8052b9bb) to encode categorical variables.
+7. Split the preprocessed data into a features array, ![image](https://github.com/user-attachments/assets/8acdbb84-bbda-4994-901b-077264d34c94), and a target array, ![image](https://github.com/user-attachments/assets/8d9e7882-eca4-4eb4-a4ee-b7a3eda0bc30). Use these arrays and the train_test_split function to split the data into training and testing datasets.
+8. Scale the training and testing features datasets by creating a ![image](https://github.com/user-attachments/assets/1fc51d46-48b7-4107-9583-558d3f04face) instance, fitting it to the training data, then using the ![image](https://github.com/user-attachments/assets/650e939a-9a8a-4f0d-8af1-cb6c899611c8)
+ function.
 
 **Step 2: Compile, Train, and Evaluate the Model**
 Using your knowledge of TensorFlow, you’ll design a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup-funded organization will be successful based on the features in the dataset. You’ll need to think about how many inputs there are before determining the number of neurons and layers in your model. Once you’ve completed that step, you’ll compile, train, and evaluate your binary classification model to calculate the model’s loss and accuracy.
@@ -43,7 +44,7 @@ Using your knowledge of TensorFlow, you’ll design a neural network, or deep le
 7. Compile and train the model.
 8. Create a callback that saves the model's weights every five epochs.
 9. Evaluate the model using the test data to determine the loss and accuracy.
-10. Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity.h5.
+10. Save and export your results to an HDF5 file. Name the file ![image](https://github.com/user-attachments/assets/2e1d01e6-b6fe-4f77-a025-f10dff0deb78).
 
 **Step 3: Optimize the Model**
 Using your knowledge of TensorFlow, optimize your model to achieve a target predictive accuracy higher than 75%.
@@ -60,11 +61,11 @@ Use any or all of the following methods to optimize your model:
 
 **Note**: If you make at least three attempts at optimizing your model, you will not lose points if your model does not achieve target performance.
 
-1. Create a new Google Colab file and name it AlphabetSoupCharity_Optimization.ipynb.
-2. Import your dependencies and read in the charity_data.csv to a Pandas DataFrame from the provided cloud URL.
+1. Create a new Google Colab file and name it ![image](https://github.com/user-attachments/assets/765a1ce6-35e9-4e7d-970a-65d3e703c104).
+2. Import your dependencies and read in the ![image](https://github.com/user-attachments/assets/7b516427-d6af-43b9-bbb6-b5e5c4916cc1) to a Pandas DataFrame from the provided cloud URL.
 3. Preprocess the dataset as you did in Step 1. Be sure to adjust for any modifications that came out of optimizing the model.
 4. Design a neural network model, and be sure to adjust for modifications that will optimize the model to achieve higher than 75% accuracy.
-5. Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity_Optimization.h5.
+5. Save and export your results to an HDF5 file. Name the file ![image](https://github.com/user-attachments/assets/5478de98-5159-4203-91e8-4576a896befb).
 
 **Step 4: Write a Report on the Neural Network Model**
 For this part of the assignment, you’ll write a report on the performance of the deep learning model you created for Alphabet Soup.
@@ -91,14 +92,14 @@ Now that you're finished with your analysis in Google Colab, you need to get you
 
 # **Requirements**
 **Preprocess the Data (30 points)**
-- Create a dataframe containing the charity_data.csv data, and identify the target and feature variables in the dataset (2 points)
-- Drop the EIN and NAME columns (2 points)
+- Create a dataframe containing the ![image](https://github.com/user-attachments/assets/cc81297f-78ff-4993-bfa7-d20348a02851) data, and identify the target and feature variables in the dataset (2 points)
+- Drop the ![image](https://github.com/user-attachments/assets/7e96d7e7-6b86-411f-9eef-f63075ff3b40) and ![image](https://github.com/user-attachments/assets/c319c278-ad2f-45b8-8cb9-09651886fe95) columns (2 points)
 - Determine the number of unique values in each column (2 points)
 - For columns with more than 10 unique values, determine the number of data points for each unique value (4 points)
-- Create a new value called Other that contains rare categorical variables (5 points)
-- Create a feature array, X, and a target array, y by using the preprocessed data (5 points)
+- Create a new value called ![image](https://github.com/user-attachments/assets/6d281dd8-25f6-4ddb-959f-87631b19e48e) that contains rare categorical variables (5 points)
+- Create a feature array, ![image](https://github.com/user-attachments/assets/1dc354dc-7024-42fd-bbb6-2c78ce78fc61), and a target array, ![image](https://github.com/user-attachments/assets/8bb9087c-9b97-4f64-bbff-6d9bcc8ea66c) by using the preprocessed data (5 points)
 - Split the preprocessed data into training and testing datasets (5 points)
-- Scale the data by using a StandardScaler that has been fitted to the training data (5 points)
+- Scale the data by using a ![image](https://github.com/user-attachments/assets/516e334f-1928-4e64-8e86-4d5e730fd1e6) that has been fitted to the training data (5 points)
 
 **Compile, Train and Evaluate the Model (20 points)**
 - Create a neural network model with a defined number of input features and nodes for each layer (4 points)
@@ -106,12 +107,12 @@ Now that you're finished with your analysis in Google Colab, you need to get you
 - Check the structure of the model (2 points)
 - Compile and train the model (4 points)
 - Evaluate the model using the test data to determine the loss and accuracy (4 points)
-- Export your results to an HDF5 file named AlphabetSoupCharity.h5 (2 points)
+- Export your results to an HDF5 file named ![image](https://github.com/user-attachments/assets/8c1934d2-b986-4cf2-ba13-16927e02af57) (2 points)
 
 **Optimize the Model (20 points)**
 - Repeat the preprocessing steps in a new Jupyter notebook (4 points)
 - Create a new neural network model, implementing at least 3 model optimization methods (15 points)
-- Save and export your results to an HDF5 file named AlphabetSoupCharity_Optimization.h5 (1 point)
+- Save and export your results to an HDF5 file named ![image](https://github.com/user-attachments/assets/c1a4dade-51eb-4edd-9f03-6f15a1242074) (1 point)
 
 **Write a Report on the Neural Network Model (30 points)**
 - Write an analysis that includes a title and multiple sections, labeled with headers and subheaders (4 points)
