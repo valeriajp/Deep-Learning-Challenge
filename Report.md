@@ -87,7 +87,6 @@ Summary of the second model:
   </tr>
 </table>
 
-
 Except for the output layer, which employed a sigmoid function, the model's activation functions were "relu". This model was trained on the same preprocessed and cleaned data, and after 150 epochs, it achieved an accuracy of 0.7240 and a loss of 0.5907.
 
 This small improvement in accuracy (72.40%) shows that the second model, which included more neurons and an extra layer, did not perform noticeably better than the first model. Even though it used more resources, the results were almost the same.
@@ -118,7 +117,7 @@ Summary of the third model:
   </tr>
 </table>
 
-    Except for the output layer, which employed a sigmoid function, the model's activation functions were "relu". The data of the ASK_AMT variable, which included information on the amount of money requested from the organization for its projects, was arranged using bins in this model. Following 150 epochs of training, the model's accuracy was 0.7340 and its loss was 0.7339.
+Except for the output layer, which employed a sigmoid function, the model's activation functions were "relu". The data of the ASK_AMT variable, which included information on the amount of money requested from the organization for its projects, was arranged using bins in this model. Following 150 epochs of training, the model's accuracy was 0.7340 and its loss was 0.7339.
 
 This suggests that roughly 73.40% of the data can be explained by the model.
 
